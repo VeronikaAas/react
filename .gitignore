@@ -1,0 +1,16 @@
+# Ignorer node_modules-mappen
+node_modules/
+
+# Ignorer loggfiler
+*.log
+
+# Ignorer build- eller dist-mappen
+/dist
+/build
+
+# Ignorer miljøfiler som kan inneholde sensitive data
+.env
+
+# Ignorer andre vanlige filer
+.DS_Store         # MacOS spesifik fil
+Thumbs.db         # Windows spesifik fil
